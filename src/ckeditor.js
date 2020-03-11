@@ -22,9 +22,16 @@ import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed.js';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import Table from '@ckeditor/ckeditor5-table/src/table.js';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
-import MathType from '@wiris/mathtype-ckeditor5';
 import Autosave from '@ckeditor/ckeditor5-autosave/src/autosave.js';
+import Code from '@ckeditor/ckeditor5-basic-styles/src/code.js';
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock.js';
+import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight.js';
+import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline.js';
+import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor.js';
+import FontSize from '@ckeditor/ckeditor5-font/src/fontsize.js';
+import MathType from '@wiris/mathtype-ckeditor5';
+import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough.js';
+import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials.js';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
 
@@ -51,9 +58,16 @@ Editor.builtinPlugins = [
 	PasteFromOffice,
 	Table,
 	TableToolbar,
-	MathType,
 	Autosave,
+	Code,
 	CodeBlock,
+	Highlight,
+	HorizontalLine,
+	FontColor,
+	FontSize,
+	MathType,
+	Strikethrough,
+	Underline,
 	Essentials,
 	Paragraph
 ];
